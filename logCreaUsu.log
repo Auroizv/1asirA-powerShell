@@ -1,0 +1,112 @@
+**********************
+PowerShell transcript start
+Start time: 20260120204350
+Username: DESKTOP-RPERAO9\alum1asira
+RunAs User: DESKTOP-RPERAO9\alum1asira
+Configuration Name: 
+Machine: DESKTOP-RPERAO9 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll
+Process ID: 7236
+PSVersion: 7.5.4
+PSEdition: Core
+GitCommitId: 7.5.4
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\logCreaUsu.log
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario adrian1 ya existe.
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario adrian1 ya existe.
+
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\adrian1 ya es un miembro del grupo usuarios.
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\adrian1 ya es un miembro del grupo usuarios.
+
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario ana1 ya existe.
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario ana1 ya existe.
+
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\ana1 ya es un miembro del grupo usuarios.
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\ana1 ya es un miembro del grupo usuarios.
+
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario paloma1 ya existe.
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario paloma1 ya existe.
+
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\paloma1 ya es un miembro del grupo usuarios.
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\paloma1 ya es un miembro del grupo usuarios.
+
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario sergio1 ya existe.
+New-LocalUser: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:7
+Line |
+   7 |     New-LocalUser $u -password $contrasenia
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | El usuario sergio1 ya existe.
+
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\sergio1 ya es un miembro del grupo usuarios.
+Add-LocalGroupMember: C:\Users\alum1asira\Documents\GitHub\1asirA-powerShell\creauser-simple.ps1:10
+Line |
+  10 |     Add-localGroupMember -group usuarios -member $u
+     |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | DESKTOP-RPERAO9\sergio1 ya es un miembro del grupo usuarios.
+
+**********************
+PowerShell transcript end
+End time: 20260120204351
+**********************
