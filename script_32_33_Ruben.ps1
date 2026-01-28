@@ -1,7 +1,8 @@
 ﻿param(
 [string]$fichero=".\usu.txt")
 Start-Transcript -Path C:\Users\alum1asira\Desktop\log\$(get-date -format 'yyyy-MM-dd-hh-mm')genera_usuarios.log -Append
-
+# OJO: Revisar los archivos de log regularmente y hacer backup a otro sitio o eliminar los que no sean necesarios 
+# Recomendable programar una tarea para quitar del disco los antiguos (llevándolos a otro sitio o borrándolos)
 $usuario = Get-Content $fichero
 
 function quitartildes {
@@ -54,5 +55,6 @@ foreach($usu in $usuario) {
     # 4. Aplicar los cambios a la carpeta
     Set-Acl $rutaBase $acl
 }
+
 
 stop-Transcript
